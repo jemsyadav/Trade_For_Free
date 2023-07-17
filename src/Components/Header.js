@@ -6,6 +6,7 @@ const Navbar1=()=> {
     seticon(!icon)
   }
   return (
+    
     <div className="container">
    
   
@@ -27,6 +28,8 @@ const Navbar1=()=> {
 </span>
     </div>
     </div>
+    <a href=""><button className='Button_Gradient' style={{marginRight:"8rem"}}>LOGO</button></a>
+
     
     
   
@@ -34,32 +37,40 @@ const Navbar1=()=> {
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
         
-          <a className="nav-link active text-white " aria-current="page" href="/">HOME</a>
+          <a className="nav-link active text-white " aria-current="page" href="/">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class=" nav-link text-white" href="/about">ABOUT</a>
+          <a class=" nav-link text-white" href="/about">COMPANY</a>
         </li>
         
 
         <li class="nav-item">
-          <a class="nav-link text-white"   href="/services">SERVICES</a>
+          <a class="nav-link text-white"   href="/services">PRODUCTS</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white"  href="/benifits">BENIFITS</a>
+          <a class="nav-link text-white"  href="/benifits">GOVERNENCE</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white"  href="/ourteam">Our Team</a>
+          <a class="nav-link text-white"  href="/ourteam">DEVELOPERS</a>
         </li>
 
-       
+        <li class="nav-item">
+          <a class="nav-link text-white"  href="/ourteam">COMMUNITY</a>
+        </li>
+
        
       </ul>
      
-    
+      <div className="language_selector" style={{marginLeft:"16rem",borderRadius:"2rem", border:"12px solid #2d2222;"}}>
+      <select class="selectpicker" data-width="fit">
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+  <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Hindi</option>
+</select>
+</div>
     </div>
-    <button className="glow-on-hover" type="button">Contact Us</button>
+    <a href=""><button className='Button_Gradient'>Trade Now</button></a>
 </nav>
 
 
