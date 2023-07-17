@@ -1,0 +1,30 @@
+.Button_Gradient {
+    background: linear-gradient(0deg, rgba(128,39,24,1) 0%, rgba(118,65,232,1) 100%);
+    border: none;
+    color:white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 1rem;
+  }
+  .App_Store{
+   
+background: linear-gradient(80deg, rgb(65, 35, 128) 0%, rgb(0, 0, 0) 100%);
+  }
+  
+  @media only screen and (max-width: 600px) {
+   
+    .Start_Trading{
+        text-align: center;
+    }
+  }
+  .Live_Images{
+    padding-bottom: 2rem;
+  }
+
+  /* border: none !important;
+    padding: 4rem;
+    border-radius: 1rem;
+    background: linear-gradient(137deg, #7641E8 0%, #ff4d2f66 45%,#000000ad 150%); */
